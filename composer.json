@@ -1,0 +1,33 @@
+{
+  "name": "t3mnikov/livekit-sdk-php",
+  "description": "PHP SDK for LiveKit SFU",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandr Ivanov",
+      "email": "t3mnikovdev@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-mbstring": "*",
+    "ext-json": "*",
+    "php": "^7.2.0",
+    "firebase/php-jwt": "^6.0",
+    "guzzlehttp/guzzle": "^6.3|^7.0",
+    "guzzlehttp/psr7": "^1.6.1|^2.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "T3mnikov\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
