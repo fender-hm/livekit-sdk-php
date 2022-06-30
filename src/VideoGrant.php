@@ -249,4 +249,14 @@ class VideoGrant
     {
         $this->recorder = $recorder;
     }
+
+    /**
+     * Return the object properties which have been defined as an array.
+     *
+     * @return array
+     */
+    public function getData()
+    {
+        return array_filter(get_object_vars($this));
+    }
 }
