@@ -20,9 +20,7 @@
     "roave/security-advisories": "dev-latest"
   },
   "autoload": {
-    "psr-4": {
-      "T3mnikov\\": "src/"
-    }
+    "classmap": ["src/"]
   },
   "repositories": [
     {
