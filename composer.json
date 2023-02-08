@@ -13,8 +13,8 @@
     "ext-json": "*",
     "php": "^7.0.0",
     "firebase/php-jwt": "^6.0",
-    "guzzlehttp/guzzle": "^6.5",
-    "guzzlehttp/psr7": "^1.9"
+    "guzzlehttp/guzzle": "6.5.*",
+    "guzzlehttp/psr7": "1.9.*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
