@@ -11,10 +11,10 @@
   "require": {
     "ext-mbstring": "*",
     "ext-json": "*",
-    "php": "^7.2.0",
+    "php": "^7.0.0",
     "firebase/php-jwt": "^6.0",
-    "guzzlehttp/guzzle": "^6.3|^7.0",
-    "guzzlehttp/psr7": "^1.6.1|^2.0"
+    "guzzlehttp/guzzle": "^6.5",
+    "guzzlehttp/psr7": "^1.9"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
