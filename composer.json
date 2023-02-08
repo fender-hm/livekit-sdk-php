@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "T3mnikov\\": "src"
+      "T3mnikov\\": "src/"
     }
   },
   "repositories": [
