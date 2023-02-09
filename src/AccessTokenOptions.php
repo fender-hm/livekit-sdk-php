@@ -39,7 +39,7 @@ class AccessTokenOptions
     /**
      * @param int|string $ttl
      */
-    public function setTtl(int $ttl): void
+    public function setTtl(int $ttl)
     {
         $this->ttl = $ttl;
     }
@@ -47,7 +47,7 @@ class AccessTokenOptions
     /**
      * @return string|null
      */
-    public function getName(): ?string
+    public function getName()
     {
         return $this->name;
     }
@@ -55,7 +55,7 @@ class AccessTokenOptions
     /**
      * @param string|null $name
      */
-    public function setName(?string $name): void
+    public function setName( $name)
     {
         $this->name = $name;
     }
@@ -63,7 +63,7 @@ class AccessTokenOptions
     /**
      * @return null|string
      */
-    public function getIdentity(): ?string
+    public function getIdentity()
     {
         return $this->identity;
     }
@@ -71,7 +71,7 @@ class AccessTokenOptions
     /**
      * @param string $identity
      */
-    public function setIdentity(string $identity): void
+    public function setIdentity(string $identity)
     {
         $this->identity = $identity;
     }
@@ -79,7 +79,7 @@ class AccessTokenOptions
     /**
      * @return string|null
      */
-    public function getMetadata(): ?string
+    public function getMetadata()
     {
         return $this->metadata;
     }
@@ -87,7 +87,7 @@ class AccessTokenOptions
     /**
      * @param string|null $metadata
      */
-    public function setMetadata(?string $metadata): void
+    public function setMetadata( $metadata)
     {
         $this->metadata = $metadata;
     }
