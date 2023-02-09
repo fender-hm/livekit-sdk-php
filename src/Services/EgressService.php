@@ -65,7 +65,7 @@ class EgressService extends AbstractService
     (
         string $roomName,
         EncodedFileOutput $output,
-        ?int $preset,
+        $preset,
         string $audioTrackId = '',
         string $videoTrackId = ''
     ) {

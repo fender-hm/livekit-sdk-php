@@ -62,7 +62,7 @@ class ClaimGrants
     /**
      * @return null|string
      */
-    public function getMetadata(): ?string
+    public function getMetadata()
     {
         return $this->metadata;
     }

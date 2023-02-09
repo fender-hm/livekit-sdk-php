@@ -18,7 +18,7 @@ class Kind
         self::LOSSY    => 'LOSSY',
     ];
 
-    public static function name($value): ?string
+    public static function name($value)
     {
         if (!isset(self::$valueToName[$value])) {
             return null;
