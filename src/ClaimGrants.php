@@ -38,7 +38,7 @@ class ClaimGrants
     /**
      * @param string $name
      */
-    public function setName(string $name): void
+    public function setName(string $name)
     {
         $this->name = $name;
     }
@@ -54,7 +54,7 @@ class ClaimGrants
     /**
      * @param VideoGrant
      */
-    public function setVideoGrant(VideoGrant $videoGrant): void
+    public function setVideoGrant(VideoGrant $videoGrant)
     {
         $this->videoGrant = $videoGrant;
     }
@@ -70,7 +70,7 @@ class ClaimGrants
     /**
      * @param string $metadata
      */
-    public function setMetadata(string $metadata): void
+    public function setMetadata(string $metadata)
     {
         $this->metadata = $metadata;
     }
@@ -86,7 +86,7 @@ class ClaimGrants
     /**
      * @param string $sha256
      */
-    public function setSha256(string $sha256): void
+    public function setSha256(string $sha256)
     {
         $this->sha256 = $sha256;
     }

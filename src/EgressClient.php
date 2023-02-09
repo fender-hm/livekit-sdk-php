@@ -91,7 +91,7 @@ class EgressClient
     (
         string $roomName,
         EncodedFileOutput $output,
-        ?int $preset = null,
+        $preset = null,
         string $audioTrackId = '',
         string $videoTrackId = ''
     ) {

@@ -85,7 +85,7 @@ class VideoGrant
     /**
      * @param bool $roomCreate
      */
-    public function setRoomCreate(bool $roomCreate = true): void
+    public function setRoomCreate(bool $roomCreate = true)
     {
         $this->roomCreate = $roomCreate;
     }
@@ -101,7 +101,7 @@ class VideoGrant
     /**
      * @param bool $roomJoin
      */
-    public function setRoomJoin(bool $roomJoin = true): void
+    public function setRoomJoin(bool $roomJoin = true)
     {
         $this->roomJoin = $roomJoin;
     }
@@ -117,7 +117,7 @@ class VideoGrant
     /**
      * @param bool $roomList
      */
-    public function setRoomList(bool $roomList = true): void
+    public function setRoomList(bool $roomList = true)
     {
         $this->roomList = $roomList;
     }
@@ -133,7 +133,7 @@ class VideoGrant
     /**
      * @param bool $roomRecord
      */
-    public function setRoomRecord(bool $roomRecord = true): void
+    public function setRoomRecord(bool $roomRecord = true)
     {
         $this->roomRecord = $roomRecord;
     }
@@ -149,7 +149,7 @@ class VideoGrant
     /**
      * @param bool $roomAdmin
      */
-    public function setRoomAdmin(bool $roomAdmin = true): void
+    public function setRoomAdmin(bool $roomAdmin = true)
     {
         $this->roomAdmin = $roomAdmin;
     }
@@ -165,7 +165,7 @@ class VideoGrant
     /**
      * @param string $roomName
      */
-    public function setRoomName(string $roomName): void
+    public function setRoomName(string $roomName)
     {
         $this->room = $roomName;
     }
@@ -181,7 +181,7 @@ class VideoGrant
     /**
      * @param bool $canPublish
      */
-    public function setCanPublish(bool $canPublish = true): void
+    public function setCanPublish(bool $canPublish = true)
     {
         $this->canPublish = $canPublish;
     }
@@ -197,7 +197,7 @@ class VideoGrant
     /**
      * @param bool $canSubscribe
      */
-    public function setCanSubscribe(bool $canSubscribe = true): void
+    public function setCanSubscribe(bool $canSubscribe = true)
     {
         $this->canSubscribe = $canSubscribe;
     }
@@ -213,7 +213,7 @@ class VideoGrant
     /**
      * @param bool $canPublishData
      */
-    public function setCanPublishData(bool $canPublishData = true): void
+    public function setCanPublishData(bool $canPublishData = true)
     {
         $this->canPublishData = $canPublishData;
     }
@@ -229,7 +229,7 @@ class VideoGrant
     /**
      * @param bool $hidden
      */
-    public function setHidden(bool $hidden = true): void
+    public function setHidden(bool $hidden = true)
     {
         $this->hidden = $hidden;
     }
@@ -245,7 +245,7 @@ class VideoGrant
     /**
      * @param bool $recorder
      */
-    public function setRecorder(bool $recorder = true): void
+    public function setRecorder(bool $recorder = true)
     {
         $this->recorder = $recorder;
     }
